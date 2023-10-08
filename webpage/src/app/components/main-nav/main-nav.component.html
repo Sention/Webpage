@@ -7,7 +7,7 @@
     <mat-nav-list class="list">
       <a mat-list-item routerLink="/about">About me</a>
       <a mat-list-item href="#">Portfolio</a>
-      <a mat-list-item href="#">Connections</a>
+      <a mat-list-item routerLink="/connections">Connections</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -26,6 +26,6 @@
     </div>
     </mat-toolbar>
     <!-- Add Content Here -->
-    <app-main></app-main>
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
