@@ -21,7 +21,7 @@
   display: grid;
   place-items: center;
 }
-
+/* typing effect */
 .typing {
   width: 15ch;
   animation: typing 2s steps(15), blink .5s step-end infinite alternate;
@@ -44,7 +44,7 @@
   }
 }
 
-a {
+a.effect-underline{
   color: #000000;
   font-size: 1em;
   text-decoration: none;
