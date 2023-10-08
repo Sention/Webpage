@@ -26,11 +26,13 @@ ul li{
     margin: 0 40px;
 }
 
-ul li a .fab{
+ul li a svg{
     font-size: 40px;
     color:#262626;
-    line-height:80px;
+    line-height:70px;
     transition:.5s;
+    position: relative;
+    top: 20px;
 }
 
 ul li a{
@@ -89,21 +91,21 @@ ul li:hover:nth-child(1) a:after {
 }
 
 ul li:hover:nth-child(2) a {
-    background:#55acee;
+    background:#00000075;
 }
 ul li:hover:nth-child(2) a:before {
-    background:#4184b7;
+    background:#000000c0;
 }
 ul li:hover:nth-child(2) a:after {
-    background:#4d9fde;
+    background:#1816167f;
 }
 
 ul li:hover:nth-child(3) a {
     background:#ff21aa;
 }
 ul li:hover:nth-child(3) a:before {
-    background:#da1c91;
+    background:#b01876;
 }
 ul li:hover:nth-child(3) a:after {
-    background:#a91670;
+    background:#e81e9be1;
 }
