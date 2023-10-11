@@ -13,6 +13,9 @@ import { MatListModule } from '@angular/material/list';
 import { AboutComponent } from './components/about/about.component';
 import { ConnenctionsComponent } from './components/connenctions/connenctions.component';
 import { MainComponent } from './components/main/main.component';
+import { MatCardModule } from '@angular/material/card';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +32,9 @@ import { MainComponent } from './components/main/main.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
