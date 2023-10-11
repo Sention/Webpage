@@ -1,9 +1,3 @@
-body{
-    margin: 0;
-    padding: 0;
-    background:#ccc;
-}
-
 p{
   position: absolute;
   top:90%;
@@ -108,4 +102,4 @@ ul li:hover:nth-child(3) a:before {
 }
 ul li:hover:nth-child(3) a:after {
     background:#e81e9be1;
-}
+} 
