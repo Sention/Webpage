@@ -5,11 +5,11 @@ html {
   overflow: hidden;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  perspective: 1px;
-  transform-style: preserve-3d;
+body { 
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -17,13 +17,14 @@ body {
 }
 
 h1 {
-  font-size: 250%;
+   font-size: 250%
+   
 }
 
 p {
   font-size: 140%;
   line-height: 150%;
-  color: #000; /* Black text */
+  color: #333;
 }
 
 .slide {
@@ -33,7 +34,24 @@ p {
   width: 100vw;
   box-sizing: border-box;
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-  transform-style: inherit;
+	transform-style: inherit;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 320px;
+  height: 240px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
 
 .slide:before {
@@ -50,7 +68,7 @@ p {
   width: 50%;
   padding: 5%;
   border-radius: 5px;
-  background: rgba(255, 255, 255, .7); /* White background */
+  background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
@@ -64,6 +82,10 @@ p {
   margin-right: 0;
 }
 
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
 .header {
   text-align: center;
   font-size: 175%;
@@ -72,8 +94,31 @@ p {
 }
 
 #title {
-  background-image: url("https://picsum.photos/640/480");
-  z-index: 2;
+  background-image: url("https://picsum.photos/id/870/1920/1080?grayscale&blur=2");
+  z-index:2;
 }
 
-/* Other background images removed for this example */
+#title h1 {
+ transform: translateZ(.25px) scale(.75);
+ transform-origin: 50% 100%;
+
+}
+
+#slide1:before {
+  background-image: url("/assets/images/editing.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide2 {
+  background-image: url("https://picsum.photos/1920/1080?grayscale");
+  z-index:2;
+}
+
+#slide3:before {
+  background-image: url("https://picsum.photos/1920/1080?grayscale");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide4 {
+  background: #222;
+}
