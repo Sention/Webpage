@@ -14,6 +14,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ConnenctionsComponent } from './components/connenctions/connenctions.component';
 import { MainComponent } from './components/main/main.component';
 import { MatCardModule } from '@angular/material/card';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { MatCardModule } from '@angular/material/card';
     AboutComponent,
     ConnenctionsComponent,
     MainComponent,
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,
