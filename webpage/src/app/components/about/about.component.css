@@ -17,8 +17,27 @@ body {
 }
 
 h1 {
-   font-size: 250%
-   
+   font-size: 70px;
+   line-height: 1;
+   color: #e0dfdc;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
 p {
@@ -94,7 +113,7 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("https://picsum.photos/id/870/1920/1080?grayscale&blur=2");
+  background-image: url("https://picsum.photos/id/79/1920/1080?grayscale");
   z-index:2;
 }
 
@@ -106,17 +125,13 @@ img:last-of-type {
 
 #slide1:before {
   background-image: url("/assets/images/editing.jpg");
+  filter: grayscale(1);
   transform: translateZ(-1px) scale(2);
 }
 
 #slide2 {
-  background-image: url("https://picsum.photos/1920/1080?grayscale");
+  background-image: url("/assets/images/coding.jpg");
   z-index:2;
-}
-
-#slide3:before {
-  background-image: url("https://picsum.photos/1920/1080?grayscale");
-  transform: translateZ(-1px) scale(2);
 }
 
 #slide4 {
