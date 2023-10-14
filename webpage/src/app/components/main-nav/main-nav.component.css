@@ -52,7 +52,7 @@ a.effect-underline{
   position: relative;
 }
 
-/*effect-underline*/
+
 a.effect-underline:after {
 	content: '';
   position: absolute;
