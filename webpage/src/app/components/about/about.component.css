@@ -6,10 +6,10 @@ html {
 }
 
 body { 
-  margin:0;
-  padding:0;
-	perspective: 1px;
-	transform-style: preserve-3d;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -20,7 +20,7 @@ h1 {
    font-size: 70px;
    line-height: 1;
    color: #e0dfdc;
-    text-shadow: 
+   text-shadow: 
       0 -1px 0 #fff, 
       0 1px 0 #2e2e2e, 
       0 2px 0 #2c2c2c, 
@@ -53,7 +53,7 @@ p {
   width: 100vw;
   box-sizing: border-box;
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-	transform-style: inherit;
+  transform-style: inherit;
 }
 
 img {
@@ -136,4 +136,29 @@ img:last-of-type {
 
 #slide4 {
   background: #222;
+}
+
+/* Add a media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  
+  p {
+    font-size: 110%;
+  }
+
+  .slide {
+    padding: 15vh 5%;
+  }
+
+  img {
+    width: 200px;
+    height: 150px;
+  }
+
+  img:last-of-type {
+    transform: translateZ(.2px) scale(.5) translateX(-80%) translateY(-30%) rotate(-5deg);
+  }
 }

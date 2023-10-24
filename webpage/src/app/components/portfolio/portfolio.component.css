@@ -21,7 +21,7 @@ body {
 
 .heading {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 92px;
+    font-size: 84px;
     padding: 80px 50px;
     text-align: center;
     text-transform: uppercase;
@@ -73,5 +73,20 @@ body {
     .gallery,
     .gallery-item {
         margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .heading {
+        font-size: 40px; /* Further adjust font size for smaller screens */
+        padding: 10px; /* Further adjust padding for smaller screens */
+    }
+
+    .gallery-item {
+        margin: 0.5rem; /* Further adjust margin for smaller screens */
+        box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.4); /* Further adjust box shadow for smaller screens */
     }
 }

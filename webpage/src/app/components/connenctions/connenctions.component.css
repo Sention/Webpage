@@ -123,3 +123,27 @@ ul li:hover:nth-child(3) a:after {
 		background-position: 0% 50%;
 	}
 }
+@media (max-width: 768px) {
+    p {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    ul {
+      top: 5%;
+    }
+  
+    ul li {
+      margin: 0 5px; /* Adjust margin for smaller screens */
+    }
+  
+    ul li a svg {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  
+    ul li a {
+      width: 30px; /* Adjust width for smaller screens */
+      height: 30px; /* Adjust height for smaller screens */
+      transform: perspective(50px) rotate(-30deg) skew(20deg) translate(0, 0);
+      box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+}
