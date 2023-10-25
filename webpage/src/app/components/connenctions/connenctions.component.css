@@ -74,7 +74,7 @@ ul li:hover .fab{
     color:#fff;
 }
 
-ul li:hover:nth-child(1) a {
+/* ul li:hover:nth-child(1) a {
     background:#3b5999;
 }
 ul li:hover:nth-child(1) a:before {
@@ -82,25 +82,25 @@ ul li:hover:nth-child(1) a:before {
 }
 ul li:hover:nth-child(1) a:after {
     background:#4a69ad;
-}
+} */
 
-ul li:hover:nth-child(2) a {
+ul li:hover:nth-child(1) a {
     background:#00000075;
 }
-ul li:hover:nth-child(2) a:before {
+ul li:hover:nth-child(1) a:before {
     background:#000000c0;
 }
-ul li:hover:nth-child(2) a:after {
+ul li:hover:nth-child(1) a:after {
     background:#1816167f;
 }
 
-ul li:hover:nth-child(3) a {
+ul li:hover:nth-child(2) a {
     background:#ff21aa;
 }
-ul li:hover:nth-child(3) a:before {
+ul li:hover:nth-child(2) a:before {
     background:#b01876;
 }
-ul li:hover:nth-child(3) a:after {
+ul li:hover:nth-child(2) a:after {
     background:#e81e9be1;
 } 
 
@@ -124,26 +124,19 @@ ul li:hover:nth-child(3) a:after {
 	}
 }
 @media (max-width: 768px) {
-    p {
-      font-size: 14px; /* Adjust font size for smaller screens */
-    }
-  
-    ul {
-      top: 5%;
-    }
-  
+
     ul li {
-      margin: 0 5px; /* Adjust margin for smaller screens */
-    }
-  
-    ul li a svg {
-      font-size: 20px; /* Adjust font size for smaller screens */
-    }
-  
-    ul li a {
-      width: 30px; /* Adjust width for smaller screens */
-      height: 30px; /* Adjust height for smaller screens */
-      transform: perspective(50px) rotate(-30deg) skew(20deg) translate(0, 0);
-      box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
-    }
+        margin: 34px; /* Adjust margin for smaller screens */
+      }
+    
+      ul li a svg {
+        width: 30px;
+        height: 30px;
+      }
+      ul li a {
+        width: 65px; /* Adjust width for smaller screens */
+        height: 65px; /* Adjust height for smaller screens */
+        transform: perspective(50px) rotate(-30deg) skew(20deg) translate(0, 0);
+        box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
+      }
 }

@@ -40,6 +40,13 @@ h1 {
       0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
+.main {
+  font-size: 2.5rem;
+  color: black;
+  text-shadow: none;
+  padding: 0px;
+}
+
 p {
   font-size: 140%;
   line-height: 150%;
@@ -142,7 +149,7 @@ img:last-of-type {
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
-    padding: 20px;
+    padding: 5px;
   }
   
   p {
